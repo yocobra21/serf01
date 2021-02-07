@@ -1,0 +1,24 @@
+@import '_mixins';
+@import '_variables';
+@import '_desktop.scss';
+@import '_responsive';
+
+.header {
+}
+
+.header__slider {
+  &-item {
+    position: relative;
+    height: 100vh;
+    background: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.slider-item__info {
+  position: absolute;
+  bottom: 116px;
+  right: 80px;
+}
